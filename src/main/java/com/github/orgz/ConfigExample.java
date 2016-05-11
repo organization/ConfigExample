@@ -48,14 +48,19 @@ public class ConfigExample extends PluginBase {
 	@Override
 	public void onEnable() {
 		this.getDataFolder().mkdirs(); //ConfigExample 이라는 폴더를 plugins 하위에 생성합니다.
-		this.loadDB();
+		this.loadAll();
 		//TODO SaveTask 넣기.
+	}
+	
+	@Override
+	public void onDisable() {
+		this.saveAll();
 	}
 
 	/**
 	 * Config 클래스를 이용해 다양한 데이터들을 불러올 메서드입니다.
 	 */
-	public void loadDB() {
+	public void loadAll() {
 		this.saveDefaultConfig(); // PluginBase에는 이렇게 config.yml 파일을 알아서 만들어주는 넘이 있습니다.
 		this.loadScore();
 	}
@@ -94,7 +99,13 @@ public class ConfigExample extends PluginBase {
 	public void loadStudents() {
 		
 	}
-
+	/**
+	 * 모두 저장합니다.
+	 */
+	public void saveAll() {
+		this.saveScore();
+		this.getConfig().save();
+	}
 	/**
 	 * score을 score.json에 JSON으로 저장합니다.
 	 * 
