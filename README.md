@@ -1,6 +1,6 @@
 # ConfigExample
 Nukkit Config class examples. 플긴 개발 처음하시면 꼭 한번 참고해보세요.
-##Liscence
+##License
 ```
 Copyright (C) <year>  <name of author>
 
