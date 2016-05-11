@@ -2,7 +2,7 @@
 Nukkit Config class examples. 플긴 개발 처음하시면 꼭 한번 참고해보세요.
 ##License
 ```
-Copyright (C) <year>  <name of author>
+Copyright (C) 2016  MohiPE
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
