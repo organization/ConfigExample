@@ -1,4 +1,6 @@
 # ConfigExample
+Nukkit Config class examples. 플긴 개발 처음하시면 꼭 한번 참고해보세요.
+##Liscence
 ```
 Copyright (C) <year>  <name of author>
 
@@ -15,5 +17,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
-
-Nukkit Config class examples. 플긴 개발 처음하시면 꼭 한번 참고해보세요.
